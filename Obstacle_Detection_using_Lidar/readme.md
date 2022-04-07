@@ -8,7 +8,7 @@ Light Detection and Ranging (Lidar) is a remote sensing method. The lidar sensor
 
 Each lidar reflection forms a point and the set of all lidar reflections measured forms a point cloud.
 
-The Lidar data is stored in a Point Cloud Data (PCD) format. Each .pcd file contains ($x$, $y$, $z$, $I$) data where $x$= x-coordinate, $y$= y-coordinate, $z$= z-coordinate, and $I$ = laser intensity value obtained from the laser reflection off of obstacle.
+The Lidar data is stored in a Point Cloud Data (PCD) format. Each .pcd file contains (x, y, z, I) data where x= x-coordinate, y= y-coordinate, z= z-coordinate, and I = laser intensity value obtained from the laser reflection off of obstacle.
 
 ### Processing of PCD
 
