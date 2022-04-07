@@ -16,10 +16,10 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, myOwnProcessPoint
     // ----------------------------------------------------
 
     bool render_pointCloud = false; // to view pointclouds
-    bool render_obst = true; // to view obstacle shapes
+    bool render_obst = false; // to view obstacle shapes
     bool render_plane = true; // to view road
     bool render_clusters = true; // to view different colors of clusters
-    bool render_box = false; // to view blocks or boxes of clusters
+    bool render_box = true; // to view blocks or boxes of clusters
 
     // ----------------------------------------------------
     // -----            Filtering           -----
@@ -64,7 +64,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, myOwnProcessPoint
     // Clustering(cloud, float clusterTolerance, int minSize, int maxSize)
     // Clustering(segmentCloud.first, 0.5, 3, 650)
     
-    std::vector<pcl::PointCloud<pcl::PointXYZI>::Ptr> cloudClusters = pointProcessorI.Clustering(segmentCloud.first, 0.53, 10, 650);
+    std::vector<pcl::PointCloud<pcl::PointXYZI>::Ptr> cloudClusters = pointProcessorI.Clustering(segmentCloud.first, 0.5, 10, 650);
 
     int clusterId = 0;
     std::vector<Color> colors = {Color(1,0,0), Color(1,1,0), Color(0,0,1)};

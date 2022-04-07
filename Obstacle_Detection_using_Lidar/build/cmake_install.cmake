@@ -1,4 +1,4 @@
-# Install script for directory: /home/rajnish/Desktop/mySensorFusion/lidar
+# Install script for directory: /home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rajnish/Desktop/mySensorFusion/lidar/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

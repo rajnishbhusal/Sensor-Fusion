@@ -1,5 +1,5 @@
 # Obstacle Detection using Lidar
-==============
+
 This package provides utilities to process a sequence of lidar point cloud data using C++.
 
 ### Lidar and Point Cloud Data

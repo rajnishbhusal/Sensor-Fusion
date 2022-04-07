@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rajnish/Desktop/mySensorFusion/lidar
+CMAKE_SOURCE_DIR = "/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rajnish/Desktop/mySensorFusion/lidar/build
+CMAKE_BINARY_DIR = "/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/environment.dir/clean
 CMakeFiles/environment.dir/all:
 	$(MAKE) -f CMakeFiles/environment.dir/build.make CMakeFiles/environment.dir/depend
 	$(MAKE) -f CMakeFiles/environment.dir/build.make CMakeFiles/environment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rajnish/Desktop/mySensorFusion/lidar/build/CMakeFiles --progress-num=1,2,3,4 "Built target environment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/build/CMakeFiles" --progress-num=1,2,3,4 "Built target environment"
 .PHONY : CMakeFiles/environment.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/environment.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rajnish/Desktop/mySensorFusion/lidar/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/environment.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rajnish/Desktop/mySensorFusion/lidar/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/build/CMakeFiles" 0
 .PHONY : CMakeFiles/environment.dir/rule
 
 # Convenience name for target.

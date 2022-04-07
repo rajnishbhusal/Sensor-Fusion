@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/rajnish/Desktop/mySensorFusion/lidar/src/environment.cpp
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/environment.cpp
 render/render.h
-/home/rajnish/Desktop/mySensorFusion/lidar/src/render/render.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/render/render.h
 myOwnProcessPointClouds.h
-/home/rajnish/Desktop/mySensorFusion/lidar/src/myOwnProcessPointClouds.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/myOwnProcessPointClouds.h
 myOwnProcessPointClouds.cpp
-/home/rajnish/Desktop/mySensorFusion/lidar/src/myOwnProcessPointClouds.cpp
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/myOwnProcessPointClouds.cpp
 
-/home/rajnish/Desktop/mySensorFusion/lidar/src/kdtree.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/kdtree.h
 render/render.h
-/home/rajnish/Desktop/mySensorFusion/lidar/src/render/render.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/render/render.h
 
-/home/rajnish/Desktop/mySensorFusion/lidar/src/myOwnProcessPointClouds.cpp
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/myOwnProcessPointClouds.cpp
 unordered_set
 -
 myOwnProcessPointClouds.h
-/home/rajnish/Desktop/mySensorFusion/lidar/src/myOwnProcessPointClouds.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/myOwnProcessPointClouds.h
 
-/home/rajnish/Desktop/mySensorFusion/lidar/src/myOwnProcessPointClouds.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/myOwnProcessPointClouds.h
 pcl/io/pcd_io.h
 -
 pcl/common/common.h
@@ -56,19 +56,19 @@ chrono
 unordered_set
 -
 render/box.h
-/home/rajnish/Desktop/mySensorFusion/lidar/src/render/box.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/render/box.h
 kdtree.h
-/home/rajnish/Desktop/mySensorFusion/lidar/src/kdtree.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/kdtree.h
 
-/home/rajnish/Desktop/mySensorFusion/lidar/src/render/box.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/render/box.h
 Eigen/Geometry
 -
 
-/home/rajnish/Desktop/mySensorFusion/lidar/src/render/render.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/render/render.h
 pcl/visualization/pcl_visualizer.h
 -
 box.h
-/home/rajnish/Desktop/mySensorFusion/lidar/src/render/box.h
+/home/rajnish/Desktop/GIT Repos/sensorFusion/Obstacle_Detection_using_Lidar/src/render/box.h
 iostream
 -
 vector
