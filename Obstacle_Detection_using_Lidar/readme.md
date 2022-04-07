@@ -25,4 +25,7 @@ The processing of data involves:
 
 **Clustering**: Clustering involves forming clusters of obstacle point clouds corresponding to each obstacle. This package uses kd-tree (3d-tree) data structure out of the obstacle point cloud data, and searches for the closest neighbors within a tolerance using Euclidean Clustering algorithm.
 
+### 
+Library: PCL https://github.com/PointCloudLibrary/pcl
+Forked from: https://github.com/udacity/SFND_Lidar_Obstacle_Detection
 

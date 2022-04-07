@@ -1,6 +1,10 @@
 /* \author Rajnish Bhusal*/
+/* \template author Aaron Brown */
+// Library: PCL https://github.com/PointCloudLibrary/pcl
+// Forked from: https://github.com/udacity/SFND_Lidar_Obstacle_Detection
 // Obstacle Detection for Self Driving Cars using Lidar and point cloud data from PCL
-// Filtering: Voxel 
+// Filtering: PCL-based Voxel grid (crop box) and region-based
+// 
 // Segmentation: Ransac Algorithm
 // Clustering: Euclidean (kd-tree based searching)
 
