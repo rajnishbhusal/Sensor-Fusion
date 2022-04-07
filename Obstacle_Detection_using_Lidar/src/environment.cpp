@@ -31,7 +31,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, myOwnProcessPoint
     // Eigen::Vector4f(40, 6, 10, 1) ---> max crop box relative to the origin (frontwards, left, down)
     // 
 
-    inputCloud = pointProcessorI.FilterCloud(inputCloud, 0.3, Eigen::Vector4f(-10, -5.5, -2.5, 1), Eigen::Vector4f(35, 5.5, 1, 1));
+    inputCloud = pointProcessorI.FilterCloud(inputCloud, 0.18, Eigen::Vector4f(-10, -5.6, -2.5, 1), Eigen::Vector4f(30, 6.4, 1, 1));
 
     if (render_pointCloud){
         renderPointCloud(viewer, inputCloud, "inputCloud"); // use renderPointCloud if you want to see the point clouds only.
@@ -44,7 +44,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, myOwnProcessPoint
     // SegmentPlane(cloud, int maxIterations, float distanceThreshold)
     // SegmentPlane(inputCloud, 100, 0.2) 
     
-    std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentCloud = pointProcessorI.myOwnRansac3d(inputCloud, 25, 0.3);
+    std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentCloud = pointProcessorI.myOwnRansac3d(inputCloud, 100, 0.2);
 
     if (render_obst){
         renderPointCloud(viewer,segmentCloud.first,"obstCloud",Color(1,0,0));
